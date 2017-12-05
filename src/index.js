@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // @flow
 
 var babel = require('babel-core')
@@ -5,7 +6,7 @@ var fs = require('fs')
 var path = require('path')
 
 if (process.argv.length !== 5) {
-  console.log('USAGE: flow-type-assert <types.js> <output.js> <output.js.flow>')
+  console.log('USAGE: flowtype-asserter <types.js> <output.js> <output.js.flow>')
   process.exit(1)
 }
 
