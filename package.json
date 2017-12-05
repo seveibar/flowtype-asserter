@@ -1,0 +1,16 @@
+{
+  "name": "flowtype-asserter-cli",
+  "version": "0.0.0",
+  "description": "Converts a types file into a javascript type assertion file.",
+  "main": "src/index.js",
+  "author": "Severin Ibarluzea",
+  "license": "MIT",
+  "bin": {
+    "flowtype-asserter": "./src/index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-flow-runtime": "^0.15.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0"
+  }
+}
