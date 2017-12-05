@@ -1,6 +1,6 @@
 {
   "name": "flowtype-asserter-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Converts a types file into a javascript type assertion file.",
   "main": "src/index.js",
   "author": "Severin Ibarluzea",
